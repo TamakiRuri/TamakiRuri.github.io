@@ -25,7 +25,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://rurix.moe/img/arch/arch_front.jpg">
 <meta property="article:published_time" content="2022-09-01T07:53:34.000Z">
-<meta property="article:modified_time" content="2022-09-01T09:03:51.859Z">
+<meta property="article:modified_time" content="2022-09-01T09:24:18.661Z">
 <meta property="article:author" content="RuriSapphire">
 <meta property="article:tag" content="Arch Linux">
 <meta name="twitter:card" content="summary_large_image">
@@ -224,7 +224,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.2k words
+          1.4k words
         
       </span>
     
@@ -235,7 +235,7 @@
         
         
         
-          7 mins
+          8 mins
         
       </span>
     
@@ -302,11 +302,13 @@
 <p>AUR を楽に使うために <a target="_blank" rel="noopener" href="https://github.com/Jguer/yay"><em>yay</em></a> のような AUR ヘルパーを使った方が良いでしょう。</p>
 <h3 id="VRChatを動かす"><a href="#VRChatを動かす" class="headerlink" title="VRChatを動かす"></a>VRChatを動かす</h3><p>Steam で Proton Experimental を使うと、プレイヤーが使えなくなるため、<a target="_blank" rel="noopener" href="https://github.com/GloriousEggroll/proton-ge-custom">Proton GE</a> がおすすめします。（すべての動画が見えるわけではありません）</p>
 <p>ほかに、予め <em>gamemode</em> というパケージをインストールしてVRChatのパラメータに *gamemoderun %command% を追加したら（私の環境では） FPS が 10% くらい高くなります。</p>
+<p>ALVR を使う場合、Chromium を予めインストールする必要があります。そうしなければ、ALVRが起動時に落ちます。</p>
 <blockquote>
 <p>ゲーム内のスクショと写真ができないというバグがあるようです。</p>
 </blockquote>
-<h3 id="Unityでアバター改変"><a href="#Unityでアバター改変" class="headerlink" title="Unityでアバター改変"></a>Unityでアバター改変</h3><p>ここでは私の環境で使えなくなるシェーダーを箇条書きにします。</p>
-<p>liltoon 2.3 - 2.12 OK <br>liltoon 3 以上: シェーダーキーワードが超えているためアバターがレンダリングされません(51&#x2F;32) <br>Sunao 1.6.1 テクスチャエラーになります。</p>
+<h3 id="Unityでアバター改変"><a href="#Unityでアバター改変" class="headerlink" title="Unityでアバター改変"></a>Unityでアバター改変</h3><p>Unity 2019.4.31f1 を使う前に <em>gconf</em> (AUR)というパケージをインストールしておく必要があります。 <em>gconf</em> がない場合、エディターが起動できません。</p>
+<p>ここでは私の環境で使えなくなるシェーダーを箇条書きにします。</p>
+<p>liltoon 2.3 - 2.12 無事にどうさしました <br>liltoon 3 以上: シェーダーキーワードの数が超えているためアバターがレンダリングされません(51&#x2F;32) <br>Sunao 1.6.1 テクスチャエラーになります。</p>
 
               
             </div>
