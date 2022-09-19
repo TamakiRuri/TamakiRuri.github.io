@@ -19,17 +19,17 @@
     <meta name="description" content="Arch Linux を使ってみましたArch LinuxをメインOSとして使うプロジェクトだったけど、最後までやっていませんでした。 ここでは、このプロジェクトで発見したいろいろな細かいことを記録します。 インストールWifiWifiの環境では archinstall を使っても予めに iwd を使ってセットアップする必要があります。 詳しくはドキュメントに従ってください。 archinstal">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Archを使ってみました">
-<meta property="og:url" content="https://rurix.moe/2022/09/01/arch_exp/">
+<meta property="og:url" content="https://rurinya.com/2022/09/01/arch_exp/">
 <meta property="og:site_name" content="RuriSapphire">
 <meta property="og:description" content="Arch Linux を使ってみましたArch LinuxをメインOSとして使うプロジェクトだったけど、最後までやっていませんでした。 ここでは、このプロジェクトで発見したいろいろな細かいことを記録します。 インストールWifiWifiの環境では archinstall を使っても予めに iwd を使ってセットアップする必要があります。 詳しくはドキュメントに従ってください。 archinstal">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://rurix.moe/img/arch/arch_front.jpg">
+<meta property="og:image" content="https://rurinya.com/img/arch/arch_front.jpg">
 <meta property="article:published_time" content="2022-09-01T07:53:34.000Z">
-<meta property="article:modified_time" content="2022-09-01T09:24:18.661Z">
+<meta property="article:modified_time" content="2022-09-02T14:42:10.626Z">
 <meta property="article:author" content="RuriSapphire">
 <meta property="article:tag" content="Arch Linux">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://rurix.moe/img/arch/arch_front.jpg">
+<meta name="twitter:image" content="https://rurinya.com/img/arch/arch_front.jpg">
   
   
   <title>Archを使ってみました - RuriSapphire</title>
@@ -69,7 +69,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"rurix.moe","root":"/","version":"1.8.14","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"rurinya.com","root":"/","version":"1.8.14","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -278,7 +278,7 @@
               <p class="note note-info">
                 
                   
-                    Last updated on a few seconds ago
+                    Last updated on 17 days ago
                   
                 
               </p>
@@ -308,7 +308,7 @@
 </blockquote>
 <h3 id="Unityでアバター改変"><a href="#Unityでアバター改変" class="headerlink" title="Unityでアバター改変"></a>Unityでアバター改変</h3><p>Unity 2019.4.31f1 を使う前に <em>gconf</em> (AUR)というパケージをインストールしておく必要があります。 <em>gconf</em> がない場合、エディターが起動できません。</p>
 <p>ここでは私の環境で使えなくなるシェーダーを箇条書きにします。</p>
-<p>liltoon 2.3 - 2.12 無事にどうさしました <br>liltoon 3 以上: シェーダーキーワードの数が超えているためアバターがレンダリングされません(51&#x2F;32) <br>Sunao 1.6.1 テクスチャエラーになります。</p>
+<p>liltoon 2.3 - 2.12 カラー選択ツールを使うとUnityが固まります。 <br>liltoon 3 以上: シェーダーキーワードの数が超えているためアバターが表示されません(51&#x2F;32)。 <br>Sunao 1.6.1 テクスチャエラーになります。</p>
 
               
             </div>
@@ -354,7 +354,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>Archを使ってみました</div>
-      <div>https://rurix.moe/2022/09/01/arch_exp/</div>
+      <div>https://rurinya.com/2022/09/01/arch_exp/</div>
     </div>
     <div class="license-meta">
       
