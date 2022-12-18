@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Terms of Service for Misskey Instance</title>
+    <link href="/2022/12/18/terms/"/>
+    <url>/2022/12/18/terms/</url>
+    
+    <content type="html"><![CDATA[<h2 id="利用規約-x2F-Terms-of-Service"><a href="#利用規約-x2F-Terms-of-Service" class="headerlink" title="利用規約&#x2F;Terms of Service"></a>利用規約&#x2F;Terms of Service</h2><p>この利用規約は、The Orbit (Misskeyインスタンス) に適用されます。</p><p>The Orbitを利用することが、この利用規約を同意することとみなされます。</p><p>また、この利用規約は事前に通知なく変更されることがあります。</p><p>このインスタンスは試験的なインスタンスです。</p><p>インスタンスの運行とデータの保証が一切ございませんのでご了承ください。</p><br>このインスタンスに対し、日本法が適用されます。<br>インスタンスの運営者と運営協力者は、本人以外の人の発言や行動などに、責任がありません。<br>スパムなどの発信は固く禁じられます。<br>NSFW、不快を感じさせる画像などに、CW (Contents Warning) とNSFWタッグをご利用ください。<br>サーバーの運営に対し妨害する行為は固く禁じられます。<br>Misskeyの仕様上、UserIDが設定された後に変更ができません。また、大量のアカウント作成も禁じられます。<br>そのほか、運営者または運営協力者が不適切な行為が発見された場合、注意またはBANなどの対策がありますのでご注意ください。<br>このインスタンスのサポートは、日本語、英語、中国語のみ対応しています。<p><br><br></p><h4 id="Notice-This-instance-isn’t-intended-for-language-exchange"><a href="#Notice-This-instance-isn’t-intended-for-language-exchange" class="headerlink" title="Notice: This instance isn’t intended for language exchange."></a>Notice: This instance isn’t intended for language exchange.</h4><br>Forcing communication is considered as violation to this term.<br>Posting in languages other than Japanese is allowed.<br>Any content that is considered inappropriate by moderators will be deleted, and the sender will be punished based on the terms.]]></content>
+    
+    
+    <categories>
+      
+      <category>SNS</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Terms of Service</tag>
+      
+      <tag>Misskey</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Archを使ってみました</title>
     <link href="/2022/09/01/arch_exp/"/>
     <url>/2022/09/01/arch_exp/</url>
