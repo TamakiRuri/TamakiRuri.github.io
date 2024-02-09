@@ -29,7 +29,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://rurinya.com/img/arch/arch_front.jpg">
 <meta property="article:published_time" content="2022-09-01T07:53:34.000Z">
-<meta property="article:modified_time" content="2023-12-16T02:39:35.233Z">
+<meta property="article:modified_time" content="2023-12-19T11:31:42.403Z">
 <meta property="article:author" content="RuriSapphire">
 <meta property="article:tag" content="Arch Linux">
 <meta name="twitter:card" content="summary">
@@ -228,9 +228,9 @@
             </div>
           </a>
         
-          <a class="recent-link" href="/2023/04/16/ruri-komado/" title="Ruriのこまどアバターズ" >
+          <a class="recent-link" href="/2023/04/16/ruri-komado/" title="Ruriのこまどアバター" >
             <div class="recent-link-text">
-              Ruriのこまどアバターズ
+              Ruriのこまどアバター
             </div>
           </a>
         
@@ -269,7 +269,7 @@
 <div class="article-gallery">
   <div class="article-gallery-photos">
     
-      <a class="article-gallery-img" rel="gallery_clq8rcopy00012suw4jfk0wg7">
+      <a class="article-gallery-img" rel="gallery_clsekraq80001t4uwdqdchaec">
         <img src="/img/arch/arch_front.jpg" itemprop="image">
       </a>
     
@@ -343,15 +343,15 @@
 <blockquote>
 <p>ゲーム内のスクショと写真ができないというバグがあるようです。</p>
 </blockquote>
-<h4 id="内蔵グラフィックスのVRAMについて"><a href="#内蔵グラフィックスのVRAMについて" class="headerlink" title="内蔵グラフィックスのVRAMについて"></a>内蔵グラフィックスのVRAMについて</h4><p>Linuxでは、Intel iGPUではUnified Memory、AMD iGPUがgttを利用できます。これらの技術によってiGPUがメモリをそのままアクセスでき（上限がすこし異なるが）、メモリが十分である限りではiGPUのVRAM不足の心配がほぼないと思います。</p>
+<h4 id="内蔵グラフィックスのVRAMについて"><a href="#内蔵グラフィックスのVRAMについて" class="headerlink" title="内蔵グラフィックスのVRAMについて"></a>内蔵グラフィックスのVRAMについて</h4><p>Linuxでは、Intel iGPUではUnified Memory、AMD iGPUがgttを利用できます。これらの技術によってiGPUがメモリをそのままアクセスでき（上限が異なる）、メモリが十分である限りではiGPUのVRAM不足の心配がほぼないと思います。</p>
 <h3 id="Unityでアバター改変"><a href="#Unityでアバター改変" class="headerlink" title="Unityでアバター改変"></a>Unityでアバター改変</h3><blockquote>
 <p>2023年12月16日更新：最新のバージョン（Wayland, Gnome）ではこの方法で起動できません。2022 LTSは問題なく起動できましたが、2019は起動した直後にクラッシュしてしまいます。</p>
 </blockquote>
 <p>Unity 2019.4.31f1 を使う前に <em>gconf</em> (AUR)というパケージをインストールしておく必要があります。 <em>gconf</em> がない場合、エディターが起動できません。</p>
-<p>ここでは私の環境で使えなくなるシェーダーを箇条書きにします。</p>
-<p>liltoon 2.3 - 2.12 カラー選択ツールを使うとUnityが固まります。 <br>liltoon 3 以上: シェーダーキーワードの数が超えているためアバターが表示されません(51&#x2F;32)。 <br>Sunao 1.6.1 テクスチャエラーになります。</p>
+<p>ここでは私の環境で使えなかったシェーダーを箇条書きします。</p>
+<p>liltoon 2.3 - 2.12 カラー選択ツールを使うとUnityが固まります。 <br>liltoon 3: シェーダーキーワードの数が超えているためアバターが表示されません(51&#x2F;32)。 <br>Sunao 1.6.1 テクスチャエラーになります。</p>
 <h2 id="断念"><a href="#断念" class="headerlink" title="断念"></a>断念</h2><p>このプロジェクトは二回くらいArch Linuxをインストールしましたが、結局改変ができなくなり断念しました。</p>
-<p>勉強のためにもう一台ノーパソ購入し、Arch Linuxを使っているが、dGPUがなくiGPUの共有ビデオメモリの上限が1GBしかないため、ぶいちゃがちゃんと動けませんでした。</p>
+<p>勉強のためにもう一台ノーパソ購入し、Arch Linuxを使っているが、環境が違うためここでは記載していません。</p>
 <p>もしこのポストが参考になったら幸いです。</p>
 
         
@@ -403,7 +403,7 @@
   
   <div id="footer-info" class="inner">
     
-    &copy; 2023 Ruri Sapphire<br>
+    &copy; 2024 Ruri Sapphire<br>
     Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & Theme <a target="_blank" rel="noopener" href="https://github.com/saicaca/hexo-theme-vivia">Vivia</a>
   </div>
 </footer>
