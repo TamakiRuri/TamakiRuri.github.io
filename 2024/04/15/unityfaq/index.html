@@ -14,21 +14,34 @@
   
 
   
-  <title>Archives: 2023 | RuriSapphire</title>
+  <title>Unity よくある質問(Avatar) | RuriSapphire</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="preload" href="/css/fonts/Roboto-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
   <link rel="preload" href="/css/fonts/Roboto-Bold.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
-  <meta name="description" content="Ruri blog for everything in VRChat and Virtual Reality.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="RuriSapphire">
-<meta property="og:url" content="https://rurinya.com/archives/2023/">
+  <meta name="description" content="Unity よくある質問(Avatar)目次 General レンダリング・ライティング FX・アニメーション    Generalレンダリング・ライティングアバターの衣装の明るさと顔が違う Avatar の Skinned Mesh Renderer (SMR) に Anchor Override という欄があります。 通常、アバターのオリジナルパーツではすでに何かが入っていますが、衣装ではno">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Unity よくある質問(Avatar)">
+<meta property="og:url" content="https://rurinya.com/2024/04/15/unityfaq/">
 <meta property="og:site_name" content="RuriSapphire">
-<meta property="og:description" content="Ruri blog for everything in VRChat and Virtual Reality.">
+<meta property="og:description" content="Unity よくある質問(Avatar)目次 General レンダリング・ライティング FX・アニメーション    Generalレンダリング・ライティングアバターの衣装の明るさと顔が違う Avatar の Skinned Mesh Renderer (SMR) に Anchor Override という欄があります。 通常、アバターのオリジナルパーツではすでに何かが入っていますが、衣装ではno">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://rurinya.com/img/unityfaq/unity-anchor.png">
+<meta property="og:image" content="https://rurinya.com/img/unityfaq/unity-monochrome.png">
+<meta property="og:image" content="https://rurinya.com/img/unityfaq/unity-brightness.png">
+<meta property="og:image" content="https://rurinya.com/img/unityfaq/unity-bounds.png">
+<meta property="og:image" content="https://rurinya.com/img/unityfaq/unity-wd.png">
+<meta property="og:image" content="https://rurinya.com/img/unityfaq/unity-av3mposition.png">
+<meta property="og:image" content="https://rurinya.com/img/unityfaq/unity-av3mmenu.png">
+<meta property="og:image" content="https://rurinya.com/img/unityfaq/unity-wdonmmd.png">
+<meta property="article:published_time" content="2024-04-15T12:56:53.000Z">
+<meta property="article:modified_time" content="2024-04-15T13:58:16.708Z">
 <meta property="article:author" content="RuriSapphire">
+<meta property="article:tag" content="Avatar">
+<meta property="article:tag" content="Unity">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://rurinya.com/img/unityfaq/unity-anchor.png">
   
     <link rel="alternate" href="/atom.xml" title="RuriSapphire" type="application/atom+xml">
   
@@ -263,82 +276,127 @@
     <div id="content-body">
        
 
-<div class="archive-main-card">
-    <div class="archive-top">
-      <div class="main-title-bar">
-        <div class="main-title-dot"></div>
-        <h1 class="article-title">Archives</h1>
-      </div>    
+<article id="post-unityfaq" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  
+    
+   
+  <div class="article-inner">
+    <div class="article-main">
+      <header class="article-header">
+        
+<div class="main-title-bar">
+  <div class="main-title-dot"></div>
+  
+    
+      <h1 class="p-name article-title" itemprop="headline name">
+        Unity よくある質問(Avatar)
+      </h1>
+    
+  
+</div>
+
+        <div class='meta-info-bar'>
+          <div class="meta-info">
+  <time class="dt-published" datetime="2024-04-15T12:56:53.000Z" itemprop="datePublished">2024-04-15</time>
+</div>
+          <div class="need-seperator meta-info">
+            <div class="meta-cate-flex">
+  
+  <a class="meta-cate-link" href="/categories/VR/">VR</a>
+   
+</div>
+  
+          </div>
+          <div class="wordcount need-seperator meta-info">
+            964 words 
+          </div>
+        </div>
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Avatar/" rel="tag">Avatar</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Unity/" rel="tag">Unity</a></li></ul>
+
+      </header>
+      <div class="e-content article-entry" itemprop="articleBody">
+        
+          <h1 id="Unity-よくある質問-Avatar"><a href="#Unity-よくある質問-Avatar" class="headerlink" title="Unity よくある質問(Avatar)"></a>Unity よくある質問(Avatar)</h1><h2 id="目次"><a href="#目次" class="headerlink" title="目次"></a>目次</h2><ul>
+<li><a href="#General">General</a><ul>
+<li><a href="#%E3%83%AC%E3%83%B3%E3%83%80%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0">レンダリング・ライティング</a></li>
+<li><a href="#FX%E3%83%BB%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3">FX・アニメーション</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="General"><a href="#General" class="headerlink" title="General"></a>General</h2><h3 id="レンダリング・ライティング"><a href="#レンダリング・ライティング" class="headerlink" title="レンダリング・ライティング"></a>レンダリング・ライティング</h3><h5 id="アバターの衣装の明るさと顔が違う"><a href="#アバターの衣装の明るさと顔が違う" class="headerlink" title="アバターの衣装の明るさと顔が違う"></a>アバターの衣装の明るさと顔が違う</h5><p><img src="/img/unityfaq/unity-anchor.png" alt="Anchor Overrideを設定する"></p>
+<p>Avatar の Skinned Mesh Renderer (SMR) に Anchor Override という欄があります。</p>
+<p>通常、アバターのオリジナルパーツではすでに何かが入っていますが、衣装ではnoneになっているときが多いです。</p>
+<p>アバターのオリジナルパーツと同じのObject入れると完成です。</p>
+<p>キメラアバターなども、すべてのSMRに同じAnchor Overrideが入っているように気おつけましょう。</p>
+<h5 id="アバターがライティングの色を受けて変な色になる"><a href="#アバターがライティングの色を受けて変な色になる" class="headerlink" title="アバターがライティングの色を受けて変な色になる"></a>アバターがライティングの色を受けて変な色になる</h5><p><img src="/img/unityfaq/unity-monochrome.png" alt="モノクロ化を設定する"></p>
+<blockquote>
+<p>liltoon のみ動作します</p>
+</blockquote>
+<p>liltoonを利用する場合、ライティング設定の中に「ライティングモノクロ化」という選択肢があります。</p>
+<p>もしその値が0になっている場合、0.5~1に設定すると受ける影響が減ります。（通常では0.5が好ましいです）</p>
+<h5 id="アバターがライティングが暗いときに真っ黒になる"><a href="#アバターがライティングが暗いときに真っ黒になる" class="headerlink" title="アバターがライティングが暗いときに真っ黒になる"></a>アバターがライティングが暗いときに真っ黒になる</h5><p><img src="/img/unityfaq/unity-brightness.png" alt="明るさ下限を設定する"></p>
+<p>シェーダーによってライティング設定で明るさ下限を設定することができます。</p>
+<p>liltoonではライティング設定で明るさ下限を0.1以上にすると、アバターのライティングが改善されます。</p>
+<h5 id="アバターの服が一定の角度で見ると消える"><a href="#アバターの服が一定の角度で見ると消える" class="headerlink" title="アバターの服が一定の角度で見ると消える"></a>アバターの服が一定の角度で見ると消える</h5><p><img src="/img/unityfaq/unity-bounds.png" alt="Boundsを正しく設定する"></p>
+<p>Boundsが正しく設定されていない可能性があります。Skinned Mesh Renderer (SMR)のBoundsのExtentを全部大きくする（ここでは0.7）と修正されます。</p>
+<h2 id="FX・アニメーション"><a href="#FX・アニメーション" class="headerlink" title="FX・アニメーション"></a>FX・アニメーション</h2><h5 id="アバターの表情がおかしくなる"><a href="#アバターの表情がおかしくなる" class="headerlink" title="アバターの表情がおかしくなる"></a>アバターの表情がおかしくなる</h5><p><img src="/img/unityfaq/unity-wd.png" alt="Write Defaults"></p>
+<p>今のバージョンでは、FXレイヤーでWrite Defaultオンとオフを混ぜると発生するバグです。もしアバター本体のFXがオンであればすべてのアニメーションのWrite Defaultをオンにし、オフであれば全部オフにしたほうが良いです。Write Defaultをそのまま切ると正しく動作しませんので、ガイドに従って操作してください。</p>
+<p><img src="/img/unityfaq/unity-av3mposition.png" alt="Av3Managerの場所"></p>
+<p><img src="/img/unityfaq/unity-av3mmenu.png" alt="Av3Managerのメニュー"></p>
+<p>ちなみにWrite Defaultsを確認するには便利なツールがあります。VCCではAvatar3Managerというツールがあります。プロジェクトに導入しアバターをDrag&amp;DropするとWrite Defaultsがオフなのか確認できます。同じAnimator Controller（例えばFX）のWrite Defaultsが全部同じになると直します</p>
+<blockquote>
+<p>Av3Managerは他のAnimator ControllerのWrite DefaultsがFXに違っても警告が出ますがFXの中で全部同じにすれば十分です。</p>
+</blockquote>
+<h5 id="MMDワールドで表情が出ない"><a href="#MMDワールドで表情が出ない" class="headerlink" title="MMDワールドで表情が出ない"></a>MMDワールドで表情が出ない</h5><p>シェープキーがない場合とWrite Defaultがオフである場合、Write Defaultが混ぜている場合があります。</p>
+<p><strong>シェープキーがない場合</strong>では、Blenderで追加するか、ツールで追加するのが一般的です。</p>
+<p>おすすめなツール<a target="_blank" rel="noopener" href="https://booth.pm/ja/items/3696116">MMD表情設定ツール</a></p>
+<p><img src="/img/unityfaq/unity-wdonmmd.png" alt="Playable Layer Controll"></p>
+<blockquote>
+<p>この方法はToggleに関する基礎知識が必要です</p>
+</blockquote>
+<p><strong>Write Defaultがオフ</strong>の場合では、FXレイヤーにFX_OFFのレイヤーをWeightが0のままで追加しDefaultsの下に置きます。中に空きのアニメーションを入れて、そのアニメーションにVRC Playable Layer Controlを入れます。コンポーネントのLayerをFXにし、オレンジ色のアニメーション（デフォルト）のGoal Weightを1に、もう一つを0にし、接続してToggleを作ればMMDのときに表情が出るようになります。</p>
+<p>ただし、SceneでAvatarの下の衣装が全部オンに場合などではカオスな状況になりますので、この方法を使う場合アップロード時では必ずMMDのときに不要なオブジェクト（<strong>ボーンとPBを含め</strong>）すべてオフにしてください。<br><br></p>
+<p><strong>Write Defaultが混ぜている場合</strong>では、上の <a href="#%E3%82%A2%E3%83%90%E3%82%BF%E3%83%BC%E3%81%AE%E8%A1%A8%E6%83%85%E3%81%8C%E3%81%8A%E3%81%8B%E3%81%97%E3%81%8F%E3%81%AA%E3%82%8B">アバターの表情がおかしくなる</a> にご参照ください。</p>
+
+        
+      </div>
+
+         
     </div>
     
-    
-      
-      
-        
-        <div class="year-line">
-            <div class="year-num">2023</div>
-            <div class="dot-wrapper">
-                <div class="dot"></div>
-            </div>
-            <div class="article-count">3 articles</div>
-        </div>
-      
-      <a class="archive-article-link" href="/2023/12/16/cheap-capturecard-review/" title="Amazonで買った安いキャプチャーボードのレビュー">
-        <div class="date">12-16</div>
-        <div class="line">
-            <div class="dot"></div>
-        </div>
-        <div class="title">
-            <div class="title-inner">
-                
-                    Amazonで買った安いキャプチャーボードのレビュー
-                
-            </div>
-        </div>
-        <div class="tags">
-            #Hardware #Capture Card
-        </div>
-      </a>
-    
-      
-      
-      <a class="archive-article-link" href="/2023/04/16/ruri-komado/" title="Ruriのこまどアバター">
-        <div class="date">04-16</div>
-        <div class="line">
-            <div class="dot"></div>
-        </div>
-        <div class="title">
-            <div class="title-inner">
-                
-                    Ruriのこまどアバター
-                
-            </div>
-        </div>
-        <div class="tags">
-            #Avatar
-        </div>
-      </a>
-    
-      
-      
-      <a class="archive-article-link" href="/2023/02/28/avatartools/" title="今まで使ったVRChatアバターツール（ギミック）">
-        <div class="date">02-28</div>
-        <div class="line">
-            <div class="dot"></div>
-        </div>
-        <div class="title">
-            <div class="title-inner">
-                
-                    今まで使ったVRChatアバターツール（ギミック）
-                
-            </div>
-        </div>
-        <div class="tags">
-            #Avatar #Tools
-        </div>
-      </a>
-    
+     
   </div>
+  
+    
+<nav id="article-nav">
+  <a class="article-nav-btn left  disabled "
+     >
+    <i class="fa-solid fa-angle-left"></i>
+    <p class="title-text">
+        
+    </p>
+  </a>
+  <a class="article-nav-btn right "
+    
+      href="/2023/12/16/cheap-capturecard-review/"
+      title="Amazonで買った安いキャプチャーボードのレビュー"
+     >
+
+    <p class="title-text">
+      
+        Amazonで買った安いキャプチャーボードのレビュー
+        
+    </p>
+    <i class="fa-solid fa-angle-right"></i>
+  </a>
+</nav>
+
+
+  
+</article>
+
+ 
     </div>
     <div id="footer-wrapper">
       <footer id="footer">
