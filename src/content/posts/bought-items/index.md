@@ -8,7 +8,7 @@ category: 'Avatar'
 draft: false
 ---
 :::note[更新]
-2025年1月15日
+2025年2月13日
 :::
 
 ## Table of Contents
@@ -90,6 +90,9 @@ https://booth.pm/ja/items/3318947
 （敬称略）
 
 ### かぷちや
+
+ととちゃんおようふく（フルセット）
+https://booth.pm/ja/items/4642545
 
 ねこてんしこーで（フルセット）
 https://booth.pm/ja/items/6007189
