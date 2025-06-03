@@ -164,6 +164,9 @@ https://booth.pm/ja/items/5824072
 しえすたわーくす　あーけーど・えくすぷろーら（フルセット）
 https://booth.pm/ja/items/6256246
 
+餅亭　Frillcat（フルセット）
+https://booth.pm/ja/items/6866752
+
 餅亭　シュガーワンピ（フルセット）
 https://booth.pm/ja/items/5594480
 
