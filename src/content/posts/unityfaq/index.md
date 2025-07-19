@@ -8,7 +8,7 @@ category: 'Unity'
 draft: false
 ---
 :::note[更新]
-2024年9月5日
+2025年7月19日
 :::
 
 ## 目次
@@ -25,7 +25,7 @@ draft: false
 ![Anchor Overrideを設定する](./unity-anchor.png)
 
 :::tip
-MAの自動セットアップでは自動設定されるようになりました。
+MAのセットアップでは自動設定されるようになりました。
 :::
 
 Avatar の Skinned Mesh Renderer (SMR) に Anchor Override という欄があります。
@@ -42,6 +42,8 @@ Avatar の Skinned Mesh Renderer (SMR) に Anchor Override という欄があり
 
 > liltoon のみ動作します
 
+ワールドColor Gradingによって色が変わる場合もありますが、今回紹介するのはライティングの場合です。
+
 liltoonを利用する場合、ライティング設定の中に「ライティングモノクロ化」という選択肢があります。
 
 もしその値が0になっている場合、0.3~1に設定すると受ける影響が減ります。（通常では0.5以下が好ましいです）
@@ -54,7 +56,19 @@ liltoonを利用する場合、ライティング設定の中に「ライティ�
 
 liltoonではライティング設定で明るさ下限を0.1以上にすると、アバターのライティングが改善されます。
 
-##### **アバターの服が一定の角度で見ると消える**
+もちろん、ライトリミットを変更するギミックもおすすめです。
+
+##### **ライティングを調整するギミックが衣装に適用されない**
+
+![ギミックを衣装の下に動かす](./unity-brightness-costume.png)
+
+ギミックのプレハブが衣装の上にある場合では正しく動作しない場合があります。衣装の下に動かすと修正されます。
+
+##### **アバターの衣装が一定の角度で見ると消える**
+
+:::tip
+MAのセットアップでは自動設定されるようになりました。
+:::
 
 ![Boundsを正しく設定する](./unity-bounds.png)
 
@@ -64,23 +78,48 @@ Boundsが正しく設定されていない可能性があります。Boundsと�
 
 ## FX・アニメーション
 
+##### **ジャンプして着地したときに視点がずれる**
+
+![Locomotion JumpAndFallのAnimatorTrackingControlを消すか、AnimationをすべてTrackingまたはNo Changeに変える](./unity-locomotion-fix.png)
+
+:::tip
+カスタムLocomotion（一部お座りモーションも含め）をご利用の場合では干渉する可能性があります
+:::
+
+アバターの Base (Locomotion) AnimatorレイヤーのLocomotionレイヤーにある「JumpAndFall」をダブルクリップしたら、SmallHopなどのアニメーションがあると思います。（Baseレイヤーがない方は公式からコピペするか、お座りツールのプレハブにあるものをコピペしてから編集してください）
+
+それらをクリックするとAnimator Tracking Controlというコンポーネントがあると思いますので、それを消すか、AnimationにあるチェックをすべてTrackingまたはNo Changeに変えるといいです。
+
+ただし、ごろ寝ツールなどでMA対応のプレハブをご利用の場合は、プレハブの中のLocomotionレイヤーもコピペして同じ作業をする必要があります。
+
+（コピペしてから編集する場合では、プレハブのAnimatorの変え忘れをご注意ください）
+
+#### **ホバーモーション使ってるのに足が勝手に着地する**
+
+![Use Auto FootStepsを消す](./unity-no-autofootsteps.png)
+
+:::warning
+3、4点トラッキング専用
+:::
+
+アバターのAvatar DescriptorにUse Auto-Footstepsという設定を無効にすると解決されます。
+
+
 ##### **アバターの表情がおかしくなる**
 
 ![Write Defaults](./unity-wd.png)
 
-:::tip
-自作FX（コンボジェスチャーなど）をお使いでない場合ではFaceEmoがおすすめです。
-:::
-
 今のバージョンでは、FXレイヤーでWrite Defaultオンとオフを混ぜると発生するバグです。もしアバター本体のFXがオンであればすべてのアニメーションのWrite Defaultをオンにし、オフであれば全部オフにしたほうが良いです。ただし、デフォルトがオンの場合Write Defaultをそのまま切ると正しく動作しませんので、別ガイドに従って操作してください。
+
+![アバターのWrite Default設定にあわせる](./unity-ma-animatorwd.png)
+
+MAギミック、新衣装などを入れたあとに発生した場合では、ギミック、衣装のMA Merge Animatorの「アバターのWrite Default設定にあわせる」をチェック入れると修正されます。（ただし、一部のツールが動かなくなる場合があります）
 
 ![Av3Managerの場所](./unity-av3mposition.png)
 
 ![Av3Managerのメニュー](./unity-av3mmenu.png)
 
 ちなみにWrite Defaultsを確認するには便利なツールがあります。VCCでAvatar3Managerというツールをプロジェクトに導入し、アバターを上の欄にDrag&DropするとWrite Defaultsがオフなのか確認できます。同じAnimator Controller（例えばFX）のWrite Defaultsが全部同じにすると直ります。
-
-> MAで導入されるギミックのなかで、Write Default自動調整が適用されていない場合では同じような問題が起こり得るため、導入時にチェックする必要があります。
 
 > Av3Managerは他のAnimator ControllerのWrite DefaultsがFXに違っても警告が出ますがFXの中で全部同じにすれば十分です。
 
@@ -94,7 +133,7 @@ Boundsが正しく設定されていない可能性があります。Boundsと�
 
 **シェープキーがない場合**では、Blenderで追加するか、ツールで追加するのが一般的です。
     
-おすすめなツール[MMD表情設定ツール](https://booth.pm/ja/items/3696116)
+おすすめのツール[MMD表情設定ツール](https://booth.pm/ja/items/3696116)
 
 ![Playable Layer Controll](./unity-wdonmmd.png)
 
