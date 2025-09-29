@@ -91,6 +91,9 @@ https://booth.pm/ja/items/3318947
 
 ### かぷちや
 
+カプチーノ学園 Summer (フルセット)
+https://booth.pm/ja/items/7323673
+
 SUNMARINE（フルセット）
 https://booth.pm/ja/items/7056587
 
