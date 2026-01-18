@@ -8,15 +8,9 @@ category: 'Avatar'
 draft: false
 ---
 :::note[更新]
-2025年7月19日
+2026年1月18日
 :::
 
-## Table of Contents
-
-- [アバター](#アバター)
-- [衣装](#衣装)
-- [アクセなど(WIP)](#アクセ)
-<br>
 
 ## アバター
 
@@ -26,6 +20,9 @@ draft: false
 
 ﾐﾙｸﾁｬ!
 https://booth.pm/ja/items/2953391
+
+プラムちゃん
+https://booth.pm/ja/items/7770415
 
 ショコラちゃん
 https://booth.pm/ja/items/6405390
@@ -57,6 +54,9 @@ https://booth.pm/ja/items/2351859
 https://booth.pm/ja/items/6106863
 
 ### その他
+
+エクちゃん
+https://booth.pm/ja/items/7328764
 
 マヌカちゃん
 https://booth.pm/ja/items/5058077
