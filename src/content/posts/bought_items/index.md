@@ -3,12 +3,12 @@ title: もってるよリスト！
 published: 2024-09-05
 description: '持ってるアバターや衣装など！'
 image: './milk-1.png'
-tags: [Avatar, Gmmicks]
+tags: [Avatar, Gimmicks]
 category: 'Avatar'
 draft: false
 ---
 :::note[更新]
-2026年1月18日
+2026年2月07日
 :::
 
 
@@ -166,6 +166,9 @@ https://booth.pm/ja/items/5824072
 和セーラー（限定バージョン：こまどアバター専用）
 
 ### その他
+
+PLUMARIUM　Re-Poppin’Cat（フルセット）
+https://booth.pm/ja/items/7921628
 
 しえすたわーくす　あーけーど・えくすぷろーら（フルセット）
 https://booth.pm/ja/items/6256246

@@ -3,7 +3,7 @@ title: 今まで使ったVRChatアバターツール（ギミック）
 published: 2023-02-28
 description: '使ったことある＆良さそうなアバターツール（ギミック）を紹介するドラゴン'
 image: './karin-4-4.png'
-tags: [Avatar, Gimmick, Tools, VRChat]
+tags: [Avatar, Gimmicks, Tools, VRChat]
 category: 'Unity'
 draft: false 
 ---
@@ -105,6 +105,10 @@ V1無料
 レビュー: 8/10
 
 アバターペンのツールです。綺麗に書けないけどQvペンのないワールドでは十分です。
+
+> 一部バージョンでは右手のジェスチャーのデフォルト値が3になる問題があります。
+> 
+> Gesture Managerでデフォルト表情がおかしい場合ではFXのGesture Rightのデフォルト値を0に修正してください。
 
 ABT搭載アバター以外の一部に導入しました。
 <br>

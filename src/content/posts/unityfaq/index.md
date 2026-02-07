@@ -1,7 +1,7 @@
 ---
-title: Unity たまにある問題の対処法(Avatar)
+title: アバター改変にたまにある問題の対策
 published: 2024-04-15
-description: 'Unityでアバター改変をする時にたまにある問題の解決法（WIP）'
+description: 'Unityでアバター改変をする時にたまにある問題の対策(WIP)'
 image: './karin-1.png'
 tags: [Avatar, Shader]
 category: 'Unity'
@@ -142,7 +142,7 @@ MAギミック、新衣装などを入れたあとに発生した場合では、
 
 > この方法はToggleに関する基礎知識が必要です
 
-**Write Defaultがオフ**の場合では、FXレイヤーにFX_OFFのレイヤーをWeightが0のままで追加し、Defaultsの下に置きます。中に空きのアニメーション2つを入れ、そのアニメーションにVRC Playable Layer Controlを入れます。コンポーネントのLayerをFXにし、オレンジ色のアニメーション（デフォルト）でのGoal Weightを1に、もう一つを0にします。接続してToggleを作ったら、そのToggleをオンにすればMMDで表情が出るようになります。ただし、このレイヤーはFXを無効にするため、代わりにジェスチャーで表情が出なくなります。
+**Write Defaultがオフ**の場合では、FXレイヤーにFX_OFFのレイヤーをWeightが0のままで追加し、Defaultsの下に置きます。中に空きのアニメーション2つを入れ、そのアニメーションにVRC Playable Layer Controlを入れます。コンポーネントのLayerをFXにし、オレンジ色のアニメーション（デフォルト）でのGoal Weightを1に、もう一つを0にします。接続してToggleを作ったら、そのToggleをオンにすればMMDで表情が出るようになります。ただし、このレイヤーはFXを無効にするため、有効にしている間ではジェスチャーで表情が出なくなります。
 
 ただし、SceneでAvatarの下の衣装が全部オンにしている場合などではカオスな状況になりますので、この方法を使う場合アップロード時では必ずMMDのときに不要なオブジェクト（**ボーンとPBを含め**）すべてオフにしてください。（MAをご利用の場合、ボーンをオンのままにしてください。
 <br>
