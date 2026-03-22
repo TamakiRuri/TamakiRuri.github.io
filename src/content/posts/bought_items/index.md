@@ -167,6 +167,9 @@ https://booth.pm/ja/items/5824072
 
 ### その他
 
+MELTY:Ri　Klorfi（フルセット）
+https://booth.pm/ja/items/7951821
+
 PLUMARIUM　Re-Poppin’Cat（フルセット）
 https://booth.pm/ja/items/7921628
 

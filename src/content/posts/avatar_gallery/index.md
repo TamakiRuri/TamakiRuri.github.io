@@ -8,7 +8,7 @@ category: 'Avatar'
 draft: false 
 ---
 :::note[更新]
-2025年11月28日
+2026年03月22日
 :::
 
 <br><br>
@@ -18,22 +18,29 @@ draft: false
 
 ﾐﾙｸﾁｬ!
 
-![Milk](./milk-4.png)
+![Milk](./milk-6.png)
+![Milk](./milk-5.png)
 ![Milk](./milk-1.png)
-![Milk](./milk-2.png)
+![Milk](./milk-4.png)
 
 <br><br>
 
-## Milk-Shigure
+### Milk-Shigure
 
 ![Shigure](./shigure-1-0.png)
 <br><br>
 
+## プラムちゃん
+
+![Plum](./plum-1.png)
+![Plum](./plum-2.png)
+<br><br>
+
 ## シフォンちゃん
 
-![Chiffon](./chiffon-3.png)
-![Chiffon](./chiffon-1.png)
-![Chiffon](./chiffon-2.png)
+![Chiffon](./chiffon-4.png)
+![Chiffon](./chiffon-5.png)
+![Chiffon](./chiffon-6.png)
 <br><br>
 
 ## ショコラちゃん
