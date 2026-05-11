@@ -8,7 +8,7 @@ category: 'Avatar'
 draft: false
 ---
 :::note[更新]
-2026年2月07日
+2026年5月11日
 :::
 
 
@@ -160,12 +160,18 @@ https://booth.pm/ja/items/5212272
 
 ### ほむぺじ
 
+和桜セーラー（フルセット）
+https://booth.pm/ja/items/8204201
+
 ましゅまろてんし（フルセット）
 https://booth.pm/ja/items/5824072
 
 和セーラー（限定バージョン：こまどアバター専用）
 
 ### その他
+
+あいかわらぼ　SugaryMilk（フルセット）
+https://booth.pm/ja/items/8216027
 
 MELTY:Ri　Klorfi（フルセット）
 https://booth.pm/ja/items/7951821
