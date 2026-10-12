@@ -8,7 +8,7 @@ category: 'Unity'
 draft: false
 ---
 :::note[更新]
-2026年1月18日
+2026年10月12日
 :::
 
 ## General
@@ -37,6 +37,8 @@ Avatar の Skinned Mesh Renderer (SMR) に Anchor Override という欄があり
 
 > liltoon のみ動作します
 
+> Light Limit Changerなどのライティング設定ツールがおすすめです
+
 ワールドColor Gradingによって色が変わる場合もありますが、今回紹介するのはライティングの場合です。
 
 liltoonを利用する場合、ライティング設定の中に「ライティングモノクロ化」という選択肢があります。
@@ -46,6 +48,8 @@ liltoonを利用する場合、ライティング設定の中に「ライティ�
 ##### **アバターがライティングが暗いときに真っ黒になる**
 
 ![明るさ下限を設定する](./unity-brightness.png)
+
+> Light Limit Changerなどのライティング設定ツールがおすすめです
 
 シェーダーによってライティング設定で明るさ下限を設定することができます。
 
@@ -70,6 +74,8 @@ Boundsが正しく設定されていない可能性があります。Boundsと�
 ##### **ジャンプして着地した瞬間動きがおかしくなる**
 
 ![Locomotion JumpAndFallのAnimatorTrackingControlを消すか、AnimationをすべてTrackingまたはNo Changeに変える](./unity-locomotion-fix.png)
+
+> ごろ寝システムでは自動で設定されるようになりました
 
 :::tip
 カスタムLocomotion（一部お座りモーションも含め）をご利用の場合では干渉する可能性があります
@@ -127,10 +133,6 @@ MAギミック、新衣装などを入れたあとに発生した場合では、
 > Av3Managerは他のAnimator ControllerのWrite DefaultsがFXに違っても警告が出ますがFXの中で全部同じにすれば十分です。
 
 ##### **MMDワールドで表情が出ない**
-
-:::tip
-自作FX（コンボジェスチャーなど）をお使いでない場合ではFaceEmoがおすすめです。
-:::
 
 シェープキーがない場合とWrite Defaultがオフである場合、Write Defaultが混ぜている場合があります。
 

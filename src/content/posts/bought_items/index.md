@@ -8,7 +8,7 @@ category: 'Avatar'
 draft: false
 ---
 :::note[更新]
-2026年5月11日
+2026年10月12日
 :::
 
 
@@ -54,6 +54,9 @@ https://booth.pm/ja/items/2351859
 https://booth.pm/ja/items/6106863
 
 ### その他
+
+かぐやちゃん
+https://booth.pm/ja/items/8562330
 
 エクちゃん
 https://booth.pm/ja/items/7328764
@@ -169,6 +172,9 @@ https://booth.pm/ja/items/5824072
 和セーラー（限定バージョン：こまどアバター専用）
 
 ### その他
+
+MELTY:Ri　Asterielm（フルセット）
+https://booth.pm/ja/items/8822218
 
 あいかわらぼ　SugaryMilk（フルセット）
 https://booth.pm/ja/items/8216027
